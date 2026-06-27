@@ -1,0 +1,39 @@
+# OpenCode/Hermes Skills
+
+## 環境需求
+
+- Git
+- GitHub CLI (`gh`)
+- Node.js 18+
+- uv（Python 工具管理器）
+
+## 安裝方式
+
+本 repo 的 skills 為 Hermes Agent 格式，可直接複製到 `~/.hermes/skills/` 資料夾使用。
+
+## 快速開始
+
+1. 先執行 `setup` skill 檢查環境
+2. 執行 `github-auth` 登入 GitHub
+3. 根據需求選擇性安裝其他 skills
+
+## Skills 列表
+
+| Category | Skill | 用途 |
+|----------|-------|------|
+| setup | `setup` | 環境建置（Git、Node.js、uv） |
+| github | `github-auth` | GitHub 登入與 MCP 設定 |
+| notebooklm | `notebooklm` | NotebookLM AI 生成工具 |
+| obsidian | `obsidian-secondbrain` | Obsidian 第二大腦設定 |
+| firebase | `firebase-firestore` | Firebase Firestore 整合 |
+| mcp | `browser-automation` | 瀏覽器控制與桌面自動化 |
+| workflow | `init-project` | 初始化新專案 |
+| workflow | `收工` | 收工同步 |
+| workflow | `繼續` | 繼續工作 |
+
+## 安全規則
+
+- ❌ 不將 API Key、token、憑證寫入任何檔案
+- ❌ 不 commit `.env`、`node_modules/`、`.codex/`、`*.log`
+- ✅ 安裝前先做 Security Scan
+- ✅ 對外訊息先展示草稿
