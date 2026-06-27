@@ -1,6 +1,8 @@
 # OpenCode/Hermes Agent Skills 完整套件
 
 > 將 01-09 設定資料夾整理為 Hermes Agent 可用的 skills 格式
+>
+> 🐙 GitHub：https://github.com/jarvis800317/opencode-hermes-skills
 
 ## 目錄結構
 
